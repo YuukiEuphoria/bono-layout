@@ -1,0 +1,259 @@
+@media screen and (max-width: 1077px) {
+  .section-top__inner-info {
+    margin-top: 120px;
+  }
+  .section-top__inner h1 {
+    font-size: 64px;
+    line-height: 66px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .section-top__inner h1 {
+    font-size: 50px;
+  }
+  .section-top__inner-info {
+    height: auto;
+    margin-top: 60px !important;
+    margin-bottom: 0;
+  }
+  .section-top__inner a {
+    margin-top: 180px;
+    margin-bottom: 0;
+  }
+  .container {
+    padding: 0 15px;
+  }
+
+  .header-top__inner .header-top__right li span {
+    display: none;
+  }
+
+  .about-us-top__inner {
+
+    justify-content: center;
+    margin: 0 auto;
+    flex-wrap: wrap;
+    padding-bottom: 70px;
+  }
+  .about-us-bot__inner {
+    gap: 40px;
+    padding-top: 50px;
+    padding-bottom: 75px;
+    margin: 0;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  .menu {
+    padding-top: 5px;
+  }
+  .about-us-bot__inner ul {
+    order: 2;
+  }
+  .info__inner {
+    margin: 0;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  .booking-btn {
+    right: 40px;
+    bottom: 60px;
+  }
+  .booking-btn img {
+    width: 70px;
+  }
+  .footer-top__inner {
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 8px;
+  }
+  .footer-top__inner ul {
+    margin: 0;
+  }
+  .footer1 {
+    margin-left: 40px !important;
+  }
+  .video {
+    height: auto;
+    padding: 75px 0;
+  }
+  .video-inner {
+    margin: 0;
+  }
+  .video-span {
+    height: 160px;
+    width: 180px;
+    h3 {
+      font-size: 15px;
+      margin-bottom: 6px;
+    }
+    p {
+      font-size: 12px;
+      line-height: 14px;
+    }
+  }
+}
+
+@media screen and (max-width: 807px) {
+  .section-top h1 {
+    font-size: 44px !important;
+  }
+
+  .footer-top__inner ul h3 {
+    font-size: 14px;
+  }
+  .footer-top__inner ul li a {
+    font-size: 12px;
+  }
+  .menu__inner ul {
+    margin: 0;
+  }
+  .menu__inner ul li div {
+  
+    width: 210px;
+    height: 280px;
+  }
+  form {
+    opacity: 0.9;
+  }
+}
+
+@media screen and (max-width: 670px) {
+  .section-top__inner h1{
+    font-size: 40px !important;
+    line-height: 42px !important;
+  }
+  .section-top__inner a {
+    display: none;
+  }
+  .booking {
+    padding-top: 70px;
+  }
+  .gallery {
+    padding: 60px 0 40px 0;
+  }
+  .gallery h3 {
+    font-size: 32px;
+  }
+  .gallery-title img {
+    max-width: 14px;
+  }
+  .slide {
+    min-width: 300px !important;
+  }
+  .menu {
+    padding-top: 90px;
+  }
+  .booking-btn {
+    display: none;
+  }
+  .header {
+    height: auto;
+  }
+  .header-btn {
+    margin: 11px 0;
+  }
+  .header-bot__inner, .header.scrolled {
+    height: 56px;
+  }
+  .header-top__left ul span {
+    display: none;
+  }
+  .header-bot ul {
+    display: none;
+  }
+  .menu h3 {
+    font-size: 32px;
+  }
+  .menu-btn {
+    display: block;
+    img {
+      height: 37px;
+    }
+  }
+
+  .about-us h3 {
+    font-size: px !important;
+  }
+  .about-us span img {
+    width: px;
+  }
+  .about-us p {
+    font-size: 14px;
+    line-height: 16px;
+  }
+
+  .info__inner h3 {
+    font-size: 24px;
+  }
+  .info__inner p {
+    font-size: 14px;
+  }
+  .video-span {
+    padding: 14px 0 14px 12px;
+    width: 120px;
+    height: 120px;
+  }
+  .video-span h3 {
+    margin-bottom: 4px;
+    font-size: 12px;
+  }
+  .video-span p {
+    font-size: 10px;
+  }
+}
+
+@media screen and (max-width: 558px) {
+  .booking {
+    height: auto;
+    padding: 50px 0 70px 0;
+  }
+  .booking__inner h3 {
+    font-size: 32px;
+  }
+  form {
+    opacity: 0.9;
+    padding: 50px 35px;
+  }
+  form input,
+  form select,
+  form button {
+    width: 100%;
+  }
+  form button {
+    font-size: 14px;
+  }
+  .menu {
+    padding-top: 40px;
+  }
+  .menu h3 {
+    padding-bottom: 30px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .section-top__inner h3 {
+    font-size: 20px;
+  }
+  .section-top__inner-info {
+    margin: 0;
+  }
+  .section-top__inner {
+    width: auto;
+  }
+  .section-top__inner h1 {
+    width: auto;
+    font-size: 38px;
+  }
+  .menu ul li div {
+    width: 180px;
+    height: 240px;
+  }
+}
+
+@media screen and (max-width: 445px) {
+  .menu ul li div {
+    width: 150px;
+    height: 210px;
+  }
+}
